@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ead8d0">
+  <title>دعوة زفاف | حكاية حب</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <main>
+    <section class="gate-screen" id="gateScreen" aria-label="افتح الدعوة">
+      <div class="gate-halo"></div>
+      <p class="gate-kicker">بكل الحب ندعوكم</p>
+      <h1 class="gate-title">لحضور حكاية<br><em>عمر جديد</em></h1>
+      <div class="gate" id="gate">
+        <div class="gate-leaf left-leaf">
+          <span class="door-flower">✿</span><span class="door-stem">❧</span>
+        </div>
+        <div class="gate-leaf right-leaf">
+          <span class="door-flower">✿</span><span class="door-stem">❧</span>
+        </div>
+        <div class="gate-seam"></div>
+        <button class="gate-seal" id="openGate" aria-label="افتح الدعوة"><span>✧</span><small>افتحي<br>الدعوة</small></button>
+      </div>
+      <p class="gate-hint">اضغطي على الختم لفتح الدعوة</p>
+      <div class="gate-bottom">دعوة خاصة • بكل الود والمحبة</div>
+    </section>
+
+    <div class="invitation hidden" id="invitation">
+      <header class="top-mark"><span>دعوة زفاف</span><i>✧</i><span>بكل الحب</span></header>
+      <section class="paper-section hero reveal">
+        <div class="ornament ornament-tl">❦</div><div class="ornament ornament-br">❦</div>
+        <div class="arch-frame">
+          <p class="eyebrow">بسم الله نبدأ أجمل الحكايات</p>
+          <div class="tiny-rule"><span>✧</span></div>
+          <h2 class="couple"><span id="brideName">اسم العروس</span><b>و</b><span id="groomName">اسم العريس</span></h2>
+          <p class="intro-copy">بفرحة تملأ قلوبنا، يسعدنا أن تشاركونا<br>أجمل لحظات العمر وبداية حكايتنا الجديدة.</p>
+          <a class="scroll-cue" href="#date">اكتشفي التفاصيل <span>↓</span></a>
+        </div>
+      </section>
+
+      <section class="paper-section reveal" id="date">
+        <div class="ornament ornament-tl">❦</div><div class="ornament ornament-br">❦</div>
+        <p class="eyebrow">موعد لقائنا</p>
+        <div class="tiny-rule"><span>✧</span></div>
+        <div class="date-plaque">
+          <span class="date-day" id="day">—</span>
+          <span class="date-month" id="month">الشهر</span>
+          <span class="date-year" id="year">٢٠٢٦</span>
+        </div>
+        <div class="date-meta">
+          <div><small>اليوم</small><strong id="weekday">—</strong></div>
+          <i>✧</i>
+          <div><small>الساعة</small><strong id="time">—</strong></div>
+        </div>
+        <p class="soft-note">وجودكم هو أجمل هدية لنا</p>
+      </section>
+
+      <section class="paper-section reveal">
+        <div class="ornament ornament-tl">❦</div><div class="ornament ornament-br">❦</div>
+        <p class="eyebrow">مكان اجتماع القلوب</p>
+        <div class="tiny-rule"><span>✧</span></div>
+        <div class="venue-art"><span class="pin">⌖</span><span class="venue-line"></span></div>
+        <h3 class="venue-name" id="venueName">اسم القاعة</h3>
+        <p class="venue-address" id="venueAddress">عنوان القاعة بالتفصيل</p>
+        <a class="outline-button" id="mapLink" href="#" target="_blank" rel="noopener">افتحي الموقع على الخريطة <span>↗</span></a>
+      </section>
+
+      <section class="paper-section reveal">
+        <div class="ornament ornament-tl">❦</div><div class="ornament ornament-br">❦</div>
+        <p class="eyebrow">حتى لحظة اللقاء</p>
+        <div class="tiny-rule"><span>✧</span></div>
+        <div class="countdown">
+          <div><strong id="days">00</strong><small>يوم</small></div><i>:</i>
+          <div><strong id="hours">00</strong><small>ساعة</small></div><i>:</i>
+          <div><strong id="minutes">00</strong><small>دقيقة</small></div><i>:</i>
+          <div><strong id="seconds">00</strong><small>ثانية</small></div>
+        </div>
+        <p class="soft-note">نعدّ الأيام لنحتفل معكم</p>
+      </section>
+
+      <section class="paper-section reveal">
+        <div class="ornament ornament-tl">❦</div><div class="ornament ornament-br">❦</div>
+        <p class="eyebrow">تفاصيل الليلة</p>
+        <div class="tiny-rule"><span>✧</span></div>
+        <div class="timeline">
+          <article><time>07:00 مساءً</time><span class="timeline-dot">✧</span><h3>استقبال الأحباب</h3><p>نبدأ ليلتنا بوجودكم وابتساماتكم</p></article>
+          <article><time>08:00 مساءً</time><span class="timeline-dot">✧</span><h3>بداية الاحتفال</h3><p>لحظات جميلة نحتفظ بها في قلوبنا</p></article>
+          <article><time>09:00 مساءً</time><span class="timeline-dot">✧</span><h3>فرحتنا تكتمل</h3><p>نحتفل سويًا ببداية حكايتنا</p></article>
+        </div>
+      </section>
+
+      <section class="paper-section reveal">
+        <div class="ornament ornament-tl">❦</div><div class="ornament ornament-br">❦</div>
+        <p class="eyebrow">يسعدنا تأكيد حضوركم</p>
+        <div class="tiny-rule"><span>✧</span></div>
+        <p class="intro-copy">ننتظر مشاركتكم فرحتنا،<br>فضلاً أخبرونا إن كنتم ستتمكنون من الحضور.</p>
+        <form class="rsvp" id="rsvpForm">
+          <label for="guestName">الاسم الكريم</label>
+          <input id="guestName" required placeholder="اكتبي اسمك هنا">
+          <label for="guestCount">عدد الحضور</label>
+          <select id="guestCount"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+          <button class="solid-button" type="submit">تأكيد الحضور عبر واتساب</button>
+        </form>
+      </section>
+      <footer class="closing reveal"><span>✧</span><p>وجودكم يزهر فرحتنا</p><small>بكل الحب، ننتظركم</small></footer>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
